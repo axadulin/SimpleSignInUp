@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".FormActivity">
+    <ImageView
+        android:id="@+id/imgAvatar2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    <Button
+        android:id="@+id/btnAvatar"
+        android:text="Avatar"
+        android:layout_width="160dp"
+        android:layout_height="50dp"/>
+<EditText
+    android:imeOptions="actionNext"
+    android:id="@+id/edLogin"
+    android:padding="10dp"
+    android:hint="Login"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"/>
+    <EditText
+        android:imeOptions="actionNext"
+        android:id="@+id/edPwd"
+        android:padding="10dp"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <EditText
+        android:imeOptions="actionDone"
+        android:id="@+id/edFullName"
+        android:padding="10dp"
+        android:hint="Full Name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnDone"
+        android:text="Done"
+        android:layout_width="160dp"
+        android:layout_height="50dp"/>
+</LinearLayout>
