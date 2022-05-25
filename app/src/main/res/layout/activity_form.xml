@@ -13,10 +13,15 @@
         android:layout_width="100dp"
         android:layout_height="100dp"/>
     <Button
+        android:onClick="OnAvatar"
         android:id="@+id/btnAvatar"
         android:text="Avatar"
         android:layout_width="160dp"
         android:layout_height="50dp"/>
+    <TextView
+        android:id="@+id/txtInfoForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 <EditText
     android:imeOptions="actionNext"
     android:id="@+id/edLogin"
@@ -32,13 +37,22 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"/>
     <EditText
-        android:imeOptions="actionDone"
+
+        android:imeOptions="actionNext"
         android:id="@+id/edFullName"
         android:padding="10dp"
         android:hint="Full Name"
         android:layout_width="match_parent"
         android:layout_height="50dp"/>
+    <EditText
+        android:imeOptions="actionDone"
+        android:id="@+id/edPhone"
+        android:padding="10dp"
+        android:hint="Phone Number"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
     <Button
+        android:onClick="OnSend"
         android:layout_marginTop="10dp"
         android:id="@+id/btnDone"
         android:text="Done"

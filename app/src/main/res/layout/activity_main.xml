@@ -20,18 +20,31 @@
         android:id="@+id/txtInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
-        android:hint="Full Name"
+        android:visibility="gone"
+
          />
+    <TextView
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:id="@+id/txtPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        />
     <Button
+        android:onClick="OnLogin"
         android:layout_marginTop="20dp"
         android:text="Sign In"
         android:id="@+id/btnLogin"
         android:layout_width="240dp"
         android:layout_height="50dp"/>
     <Button
+        android:onClick="OnRegister"
         android:text="Sign Up"
-        android:id="@+id/btnPwd"
+        android:id="@+id/btnReg"
         android:layout_width="240dp"
         android:layout_height="50dp"/>
 
